@@ -31,7 +31,7 @@ Responsive design for both desktop and mobile views.
 3. Install all Dependencies: npm install
 4. To run Application: npm run dev
 
-# Live Demo
+### Live Demo
 Deployment: I have deployed my project in vercel.app [Live Demo](https://3-chandrika-podili-wasserstoff-full-stack-intern-task.vercel.app/) 
 
 
@@ -60,4 +60,5 @@ Deployment: I have deployed my project in vercel.app [Live Demo](https://3-chand
 #### 6. **Event Handling**
    - **Input Handling**: In `App`, the `onKeyUp` event handler triggers a city search when the Enter key is pressed. This improves user experience by allowing quick input submissions.
 
+[image](https://github.com/user-attachments/assets/f48efa43-c1de-4d6f-898a-52aca513b36e)
 
