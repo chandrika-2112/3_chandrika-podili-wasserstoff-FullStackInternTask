@@ -33,15 +33,30 @@
   }
 }
 
+/* General card styling */
 .card {
   padding: 2em;
+  background: rgba(255, 255, 255, 0.1); /* Example background for visibility */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.read-the-docs {
-  color: #888;
+/* Add hover effect for better UI */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-main {
-  display: flex;
-  flex-direction: row; /* Make sure the main container uses flex-direction: row */
+/* Responsive styles */
+@media (min-width: 768px) { /* Medium screens and up (Tablets) */
+  .card {
+    padding: 1.5em; /* Adjust padding for medium screens */
+  }
+}
+
+@media (min-width: 1024px) { /* Large screens and up (Desktops) */
+  .card {
+    padding: 1em; /* Adjust padding for large screens */
+  }
 }
