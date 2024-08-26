@@ -10,31 +10,31 @@ Responsive design for both desktop and mobile views.
 # Folder Structure
 weatherapp/
 │
-├── public/                
+├── public              
 │   ├── index.html           
-│   └── assets/              
+│   └── assets              
 │
-├── src/                    
-│   ├── assets/             
-│   ├── components/         
+├── src                    
+│   ├── assets           
+│   ├── components         
 │   │   ├── BackgroundLayout.jsx
 │   │   ├── WeatherCard.jsx
 │   │   └── MiniCard.jsx
-│   ├── context/            
+│   ├── context         
 │   │   └── Context.jsx
 │   ├── App.jsx             
 │   ├── index.jsx           
 │   └── App.css             
 │
-├── .env                    # Environment variables
-├── .gitignore              # Git ignore file
-├── eslint.config.js        # ESLint configuration
-├── index.html              # Main HTML file
-├── package-lock.json       # Dependency lock file
-├── package.json            # Project metadata and dependencies
-├── postcss.config.js       # PostCSS configuration
-├── README.md               # Project documentation
-├── tailwind.config.js      # Tailwind CSS configuration
+├── .env                    
+├── .gitignore              
+├── eslint.config.js        
+├── index.html              
+├── package-lock.json       
+├── package.json            
+├── postcss.config.js       
+├── README.md               
+├── tailwind.config.js      
 └── vite.config.js           
 
 # Installation
