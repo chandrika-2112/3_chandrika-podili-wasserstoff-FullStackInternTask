@@ -29,20 +29,23 @@ Responsive design for both desktop and mobile views.
 1. Clone the repository: git clone https://github.com/your-username/your-repository.git
 2. Navigate to Peoject Directory: cd your-repository
 3. Install all Dependencies: npm install
+4. To run Application: npm run dev
 
+# Live Demo
+[Deployment]([https://3-chandrika-podili-wasserstoff-full-stack-intern-task.vercel.app/]) 
 
 
 ### Key Points
 
 #### 1. **Hooks**
-   - **`useState`**: This hook allows you to add state variables to your functional components. For instance, `useState` is used in `WeatherCard` to manage the state of the temperature unit (Celsius or Fahrenheit) and the weather icon.
-   - **`useEffect`**: This hook manages side effects in your components, such as fetching data or setting up subscriptions. In `BackgroundLayout`, `useEffect` updates the background image based on weather conditions. In `App`, it is used to trigger the weather data fetch whenever the `place` changes.
+   - **`useState`**: This hook allows you to add state variables to your functional components. For instance, to manage the state of the temperature unit (Celsius or Fahrenheit) and the weather icon.
+   - **`useEffect`**: This hook manages side effects in your components, such as fetching data or setting up subscriptions.
    - **Custom Hooks (`useDate`)**: Custom hooks like `useDate` encapsulate and reuse date-related logic across components. It provides current date and time, updating every minute.
 
 #### 2. **Built-in Functions**
-   - **`toLocaleDateString()`**: This built-in JavaScript function formats dates according to the specified locale. It's used in `WeatherCard` and `useDate` to display dates and times in a user-friendly format.
+   - **`toLocaleDateString()`**: This built-in JavaScript function formats dates according to the specified locale.
    - **`setInterval()`**: This function is used in `useDate` to periodically update the date and time state, ensuring that the displayed time is always current.
-   - **`fetch()`**: This built-in web API function (used in `StateContext`) is employed to make HTTP requests to retrieve weather data from an external API.
+   - **`fetch()`**: This built-in web API function is employed to make HTTP requests to retrieve weather data from an external API.
 
 #### 3. **States**
    - **State Management**: `useState` is employed to create and manage state variables like `weather`, `input`, and `image` in your components. This enables dynamic updates and re-rendering of components based on user interactions and API responses.
