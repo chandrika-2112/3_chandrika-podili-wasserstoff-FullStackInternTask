@@ -18,9 +18,9 @@ function App() {
  
   return (
     <div className='w-full h-screen text-white px-8'>
-      <nav className='w-full p-3 flex flex flex-col md:flex-row justify-between items-center'>
-        <h1 className='font-bold  tracking-wide text-3xl'>Weather App</h1>
-        <div className='bg-white w-full md:w-[15rem] overflow-hidden shadow-2xl rounded flex items-center p-2 gap-2'>
+      <nav className='w-full p-3 flex justify-between items-center'>
+        <h1 className='font-bold tracking-wide text-3xl mb-4'>Weather App</h1>
+        <div className='bg-white w-[15rem] overflow-hidden shadow-2xl rounded flex items-center p-2 gap-2'>
           <img src={search} alt="search" className='w-[1.5rem] h-[1.5rem]' />
           <input onKeyUp={(e) => {
             if (e.key === 'Enter') {
@@ -31,7 +31,7 @@ function App() {
         </div>
       </nav>
       <BackgroundLayout></BackgroundLayout>
-      <main className=' flex flex-col md:flex-row justify-between gap-5 px-5 py-5 px-[10%] '>
+      <main className=' flex flex-col md:flex-row justify-between gap-12 px-4 py-4 lg:px-[10%] '>
         {/* WeatherCard component displaying current weather*/}
         <WeatherCard
           place={place}
@@ -46,7 +46,7 @@ function App() {
         />
         
         {/* MiniCard components displaying forecast for the next few hours */}
-        <div className='grid grid-cols-3 gap-12 w-[60%] px-4 py-12'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 w-full md:w-[60%] px-4 py-12'>
           {
             values?.slice(1, 7).map(curr => {
               return (
@@ -66,4 +66,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
