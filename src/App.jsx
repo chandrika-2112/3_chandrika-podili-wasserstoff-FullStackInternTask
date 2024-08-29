@@ -46,7 +46,7 @@ function App() {
         />
         
         {/* MiniCard components displaying forecast for the next few hours */}
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 w-full md:w-[60%] px-4 py-12'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 w-full md:w-[60%] px-1 py-12'>
           {
             values?.slice(1, 7).map(curr => {
               return (
