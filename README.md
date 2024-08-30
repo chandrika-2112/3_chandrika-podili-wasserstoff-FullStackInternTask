@@ -32,7 +32,7 @@ Responsive design for both desktop and mobile views.
 4. To run Application: npm run dev
 
 ### Live Demo
-Deployment: I have deployed my project in vercel.app [Live Demo](https://3-chandrika-podili-wasserstoff-full-stack-intern-task.vercel.app/) 
+Deployment: I have deployed my project in vercel.app [Live Demo](https://3-chandrika-podili-wasserstoff-full-stack-intern-task-k543.vercel.app/) 
 
 
 ### Key Points
